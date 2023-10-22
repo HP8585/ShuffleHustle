@@ -50,6 +50,7 @@ export const coreGame2 = ()=>{
               setTimeout(() => {
                 card1.matched = false
                 card2.matched = false
+                flippedCards.value = []
               }, 1000);
           }}
         } else {
