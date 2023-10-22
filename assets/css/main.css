@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.li1{
+    @apply max-w-[5em] relative 
+}
+.li1 .first{
+    @apply rounded px-2 border-[3.2px] text-center h-[7.4em] border-red-600 overflow-hidden
+}
+
+.li1 .first .sec{
+    @apply border-2 border-red-600 mt-1 flex items-center justify-center text-red-700 h-[6.5em]
+}
+
+.first .sec span{
+    @apply text-[3rem]
+}
+
+.turned{
+    @apply skew-y-[190deg] duration-300
+}
+
+
+li{
+    @apply w-[3em] md:w-[5em] relative 
+}
+li .first{
+    @apply rounded-lg  border-[3.2px] text-center md:h-[7.4em] border-red-600 overflow-hidden
+}
+
+li .first .sec{
+    @apply border-2 border-red-600 mt-1 flex items-center justify-center text-red-700 h-[6.5em]
+}
+
+.first .sec span{
+    @apply text-[3rem]
+}
+
+.turned{
+    @apply skew-y-[190deg] duration-300
+}
+
+/*Bottom sheet*/
+
+.content{
+    @apply text-[0.81rem] md:text-[1rem] w-[40em] flex flex-col gap-8 px-20 md:px-0
+}
+
+.content span{
+    @apply font-bold text-lg
+}
